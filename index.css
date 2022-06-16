@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: "Montserrat";
+  letter-spacing: 1.3px;
+  @apply text-white;
+}
+
+*::placeholder {
+  font-family: "Montserrat";
+  letter-spacing: 1.3px;
+}
+
+*,
+*:focus,
+*:hover {
+  outline: none !important;
+}
+.info-block>div:nth-child(odd) {
+  padding-right: 1.5rem;
+}
+.info-block>div:nth-child(even) {
+  padding-left: 1.5rem;
+}
+/* CUSTOM UTILITY CLASSES
+ * class names defined here can be used if the design calls for
+ * something not supported out of the box by Tailwind
+*/
+@layer utilities {
+  .progress-dot {
+    width: 10px;
+    height: 10px;
+  }
+  .selected-dot {
+    box-shadow: 0 0 0 7px #1DC29D;
+  }
+}

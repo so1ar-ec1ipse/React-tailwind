@@ -1,0 +1,8 @@
+node_modules
+.keeper-config.json
+dist/*
+.parcel-cache
+
+.idea
+.cache
+.DS_Store

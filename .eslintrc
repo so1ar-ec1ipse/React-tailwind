@@ -1,0 +1,19 @@
+{
+  "extends": ["airbnb", "prettier", "prettier/react", "plugin:react-hooks/recommended"],
+  "plugins": ["prettier"],
+  "parser": "babel-eslint",
+  "rules": {
+    "prettier/prettier": ["error"],
+    "react/jsx-props-no-spreading": [
+      "error",
+      {
+        "custom": "ignore"
+      }
+    ]
+  },
+  "globals": {
+    "localStorage": true,
+    "window": true,
+    "document": true
+  }
+}

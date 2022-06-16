@@ -1,0 +1,6 @@
+.ESInput::placeholder {
+  @apply italic;
+  @apply capitalize;
+  @apply font-normal;
+  @apply opacity-70;
+}
